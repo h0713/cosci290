@@ -27,24 +27,24 @@ import java.util.Scanner;
       
         
       final double PI_VALUE = 3.1415;
-      String name = "Henry";
       int numberOfStudents = 29;
       double avgGPA = 3.78;
       String name = "";
       boolean gameOver = false; //or true 
+      int age = 0;
       
       Scanner input = new Scanner(System.in);
       
       System.out.println("Hi, give me your name: ");
       
-      String name = input.next();
+      
       name = input.next();
       
       
       System.out.println("Hi " + name);
       System.out.println("How old are you?");
       age = input.nextInt();
-      System.out.printlnj("you are" + age + " years old!");
+      System.out.println(" you are " + age + " years old!");
       
       /*
        Arithmetic operators
@@ -63,7 +63,7 @@ import java.util.Scanner;
       int days = age * 365;
       int hours = days * 24;
       
-      System.out.println("You are " + month + " months old OR" + days +" days old OR " + hours + "hours old!");
+      System.out.println( " You are  " + month + " months old OR " + days + " days old OR " + hours + " hours old! ");
       
       
       
