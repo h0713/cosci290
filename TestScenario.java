@@ -30,7 +30,7 @@ public class TestScenario{
       System.out.println("Surprise trap door... u fell till death");
     }
     else{
-      System.out.println("You're on your own.");
+      System.out.println("U were bit by a giant spider... -50 points.");
     }
     
   }
