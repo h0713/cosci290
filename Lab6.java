@@ -1,5 +1,5 @@
 /*
-  Author: Henry rojas
+  Henry Rojas
   CoSci 290
   
   The purpose of this program is to take in user input
