@@ -16,7 +16,7 @@ public static void main(String[] args){
   System.out.println( "Problem 1.9");
   System.out.println( " Area is  " + (area) + " and " + " Perimeter is  " + (perimeter) );
   
-   
+  
   double kilometers = 14;
   double miles = (kilometers / 1.6);
   System.out.println( "Problem 1.10");
