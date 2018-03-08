@@ -17,6 +17,7 @@ public class Lab7{
     String Playername = "";
     String YesorNo = "";
     String LeftRight = "";
+    String question1 = "";
     int randomNum = 0;
     int minimum = 1; //set min for range for random numbers
     int maximum = 10; //set max for range for random numbers
@@ -46,6 +47,22 @@ public class Lab7{
     System.out.println("You do know which way you are going? Right? \n ");
     YesorNo = input.next();                
     System.out.println("Great... lets get going! \n");
+    System.out.println("So...what took you soo long Dr." + Playername );
+    question1 = input.next();
+    System.out.println("I see... wait till the team sees you. \n");
+    System.out.println(" You're the team leader that we need. \n");
+    System.out.println("We are here... choose your weapon...\n");
+    System.out.println("a machete or a flame thrower ?");
+  
+  String answer = input.next();
+  
+  if(answer.equalsIgnoreCase("flame thrower")){
+    System.out.println("Awesome choice Dr." + Playername );
+  }
+ else{
+   System.out.println("That will do.");
+ 
+ }  
     System.out.println(" Shall we enter.. Which way Dr." + Playername + "...left or right? ");
     LeftRight = input.next();
     
