@@ -22,7 +22,7 @@ public class Lab11{
  palindrome = input.nextInt(); 
  remainder = palindrome % 10; 
  reverse = reverse * 10 + remainder; 
- num = palindrome / 10; 
+ num = palindrome / 100;
  
       
          
