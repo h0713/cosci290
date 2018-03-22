@@ -17,7 +17,7 @@ public class HW3{
   int square = num1 * num1;
   System.out.println("Please enter acceleration: ");  
   double num2 = input.nextDouble();
-  double lenght = Math.round(square / (2 * num2)); 
+  double lenght = Math.round((square / (2 * num2))*100.0)/100.0; 
   System.out.println("The minimum runway length for this airplane is: " + lenght );
   //2.12
     
