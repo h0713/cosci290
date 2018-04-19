@@ -19,9 +19,14 @@ public static void main(String[] args){
   System.out.println("Operations on a and b: ");
   System.out.println("addition - " + add(a, b));
   System.out.println("subtraction - " + subtract(a, b));
+  System.out.println("multiplication - " + multiply(a, b));
+  System.out.println("division - " + divide(a,b));
+  
+  System.out.println("Operations on c and d: ");
+  System.out.println("addition - " + add(c, d));
+  System.out.println("subtraction - " + subtract(c, d));
   System.out.println("multiplication - " + multiply(c, d));
   System.out.println("division - " + divide(c,d));
-  
 
   }
 // this custom method addds two integers
