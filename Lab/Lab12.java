@@ -33,8 +33,8 @@ public class Lab12{
 
 	double num = input.nextDouble();
 	
-	System.out.println("This program will check if a number is even or odd...");
-	System.out.println("Please enter in a whole number...");
+	System.out.println("This program will check if a number is even or odd... \n");
+	System.out.println("Please enter in a whole number... \n");
 	
 	if ((num % 2) == 0){
      System.out.println("The number " + num + " is even...");
