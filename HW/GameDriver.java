@@ -20,25 +20,54 @@ public class GameDriver{
     int randomNum = 0;
     int minimum = 1; //set min for range for random numbers
     int maximum = 10; //set max for range for random numbers
+    String SplashScreen1 = "";
+    String Intro = "";
+    System.out.println(print(SplashScreen1));
+  
+  
+  } 
+    
+  public static String print(String SplashScreen1){
+ 
+    String Screen1 = " .---.-.--|  |.--.--.-----.-----.|  |_.--.--.----.-----. \n"
+                   + " |  _  |  _  ||  |  |  -__|     ||   _|  |  |   _|  -__| \n"
+                 + " |___._|_____| \\___/|_____|__|__||____|_____|__| |_____| \n" 
+                        + " (       )(  ___  )/ ___   )(  ____ \\ \n"
+                      +  " | () () || (   ) |\\/   )  || (    \\/ \n"
+                       + " | || || || (___) |    /   )| (__    \n"
+                       + " | |(_)| ||  ___  |   /   / |  __)   \n"
+                       + " | |   | || (   ) |  /   /  | (      \n"
+                        +" | )   ( || )   ( | /   (_/\\| (____/\\ \n"
+                        +" |/     \\||/     \\|(_______/(_______/ ";
+                          
+     return Screen1; 
+  
+   }
+    
+    public static String print(String Intro){
       
-    System.out.println(" .---.-.--|  |.--.--.-----.-----.|  |_.--.--.----.-----. \n"
-                      +" |  _  |  _  ||  |  |  -__|     ||   _|  |  |   _|  -__| \n"
-                      +" |___._|_____| \\___/|_____|__|__||____|_____|__| |_____| "); 
-    System.out.println(" (       )(  ___  )/ ___   )(  ____ \\ \n"
-                      +" | () () || (   ) |\\/   )  || (    \\/ \n"
-                      +" | || || || (___) |    /   )| (__    \n"
-                      +" | |(_)| ||  ___  |   /   / |  __)   \n"
-                      +" | |   | || (   ) |  /   /  | (      \n"
-                      +" | )   ( || )   ( | /   (_/\\| (____/\\ \n"
-                      +" |/     \\||/     \\|(_______/(_______/ ");
-                                                                 
-   System.out.println("Rain, rain, and more rain keep falling in the deep jungle... \n"
+      String info = "Rain, rain, and more rain keep falling in the deep jungle... \n"
+                      +" as you keep running through the jungle... you notice something \n"
+                     +" ...and it turns out ur not alone \n"
+                     +" .... its a man dressed just like Indiana Jones... as you aproach him... he signals you to come over \n"
+                     +" and he stares at u and says...";
+      return info;
+      
+      
+    }
+                                                               
+  
+    
+    
+    /*
+    
+    System.out.println("Rain, rain, and more rain keep falling in the deep jungle... \n"
                       +" as you keep running through the jungle... you notice something \n"
                      +" ...and it turns out ur not alone \n"
                      +" .... its a man dressed just like Indiana Jones... as you aproach him... he signals you to come over \n"
                      +" and he stares at u and says...");
    System.out.println("What is your name? \n");
-    Playername = input.next();
+   Playername = input.next();
    
     System.out.println("Ah...WELCOME Dr." + Playername );
     System.out.println("So sorry, didn't recognize you there... \n");
@@ -76,6 +105,5 @@ public class GameDriver{
     
     
     
-  
+  */
   }
-}
